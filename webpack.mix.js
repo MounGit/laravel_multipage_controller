@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/scss/business-casual', 'public/css/business-casual.min.css')
-    .postCss('resources/css/app.css', 'public/css', [
-    ]);
+mix.sass('resources/scss/business-casual', 'public/css/business-casual.min.css')
+    // .postCss('resources/css/app.css', 'public/css/business-casual.min.css', [
+    // ])
+    ;
